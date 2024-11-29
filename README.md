@@ -12,6 +12,10 @@ When workstation is first launched, a dialog will pop up to ask you for the usab
 
 Ensure to have the Host OS updated with the latest patches.
 
+```bash
+sudo dnf install kernel-devel
+```
+
 To correct the issue with secure boot enabled:
 
 - Generate a key pair using the openssl to sign vmmon and vmnet modules:
